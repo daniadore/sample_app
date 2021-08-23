@@ -1,0 +1,21 @@
+ja:
+  Default: "%m/%d/%Y"
+  Short: "%m/%d"
+  base_title: Ruby on Rails Tutorial
+  c_en: English
+  c_ja: Japanese
+  greetings: 愛してます
+  h_title: サンプルアプリ
+  hello: こんにちはゲスト
+  help: ヘルプ
+  help_p1: Ruby on Railsチュートリアルのサンプルアプリで助けを求める
+  help_p2: Railsチュートリアルのヘルプページ
+  help_p3: このサンプルアプリのヘルプを見るには
+  help_p4: Ruby on Railsチュートリアルブック
+  home: ホーム
+  l_title: Railsチュートリアルサンプルアプリ
+  log_in: ログイン
+  p_1: これはのホームページです
+  p_2: Ruby on Railsチュートリアル
+  p_3: Sample application.
+  user: Users
