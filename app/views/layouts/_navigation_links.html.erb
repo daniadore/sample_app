@@ -1,0 +1,9 @@
+<li><%= link_to t(:l_title), users_path %></li>
+
+<%= content_tag :li do %>
+  <%= link_to 'Switch to English', locale: :en %>
+<% end unless current_page?(locale: en) %>
+
+<%= content_tag :li do %>
+  <% link_to 'switch to japanese', locale: :ja %>
+<% end unless current_page?(locale: :ja) %>
