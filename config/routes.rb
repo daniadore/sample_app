@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
     get 'home/index'
     resources :posts
