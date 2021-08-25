@@ -1,6 +1,8 @@
 ja:
   c_en: English
   c_ja: Japanese
+  confirmation: Pパスワード確認
+  create_my_account: アカウントを作る
   greetings: 愛してます
   h_title: サンプルアプリ
   hello: こんにちはゲスト
@@ -15,4 +17,8 @@ ja:
   p_1: これはのホームページです
   p_2: Ruby on Railsチュートリアル
   p_3: Sample application.
+  sign_up: サインアップ
+  the_form_contains: The form contains
   user: Users
+  user_not_found: ユーザーが見つかりません
+  welcome_greet: ウェルカム・マイ・フレンド!
