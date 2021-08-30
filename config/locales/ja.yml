@@ -22,3 +22,14 @@ ja:
   user: Users
   user_not_found: ユーザーが見つかりません
   welcome_greet: ウェルカム・マイ・フレンド!
+  new_user: "新しいユーザー"
+  invalid_email_password: "申し訳ありませんが間違ったパスワード/メール"
+  users: "ユーザー"
+  account: "アカウント"
+  profile: "プロフィール"
+  settings: "設定"
+  log_out: "ログアウト"
+  name: "Name"
+  email: "Email"
+  password: "Password"
+  sign_up_now: "Sign up now!"

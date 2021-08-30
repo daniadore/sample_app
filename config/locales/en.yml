@@ -22,3 +22,14 @@ en:
   user: Users
   user_not_found: User not found
   welcome_greet: Welcome my Friend!
+  new_user: "New user"
+  invalid_email_password: "sorry bro wrong password/email"
+  users: "User"
+  account: "account"
+  profile: "profile"
+  settings: "setting"
+  log_out: "log out"
+  name: "Name"
+  email: "Email"
+  password: "Password"
+  sign_up_now: "Sign up now!"
