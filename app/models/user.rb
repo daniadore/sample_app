@@ -1,23 +1,13 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
-
-  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-
-  #validates name
-  validates :name, presence: true
-  #validates email
-  validates :email, presence: true, length: {maximum: 255}, format: {with: VALID_EMAIL_REGEX}
-
-  has_secure_password
-
-  #email lowercase  conversion
   before_save :downcase_email
 
-  private
+  validates :name, presence: true
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  validates :email, uniqueness: true, presence: true, length: {maximum: 255}, format: {with: VALID_EMAIL_REGEX}
+  validates :password, presence: true, length: {minimum: 6}, allow_nil: true
 
-  def downcase_email
-    self.email.downcase!
-  end
+  has_secure_password
 
   class << self
     def new_token
@@ -46,5 +36,11 @@ class User < ApplicationRecord
 
   def forget
     update_attribute :remember_digest, nil
+  end
+
+  private
+
+  def downcase_email
+    self.email.downcase!
   end
 end

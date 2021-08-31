@@ -1,8 +1,15 @@
 en:
+  account: Account
+  all_users: All users
   c_en: English
   c_ja: Japanese
   confirmation: Password Confirmation
   create_my_account: Create my account
+  delete: Delete
+  delete_fail: Delete fail
+  edit_user: Edit user
+  email: Email
+  error: Error !
   greetings: Greetings
   h_title: Sample App
   hello: Hello guest
@@ -12,25 +19,31 @@ en:
   help_p3: To get help on this sample app, see the
   help_p4: Ruby on Rails Tutorial book
   home: Home
+  invalid_email_password: sorry bro wrong password/email
   l_title: Rails tutorial sample app
   log_in: Log in
+  log_out: log out
+  n_authorized: N authorized
+  name: Name
+  new_user: New user
   p_1: This is the home page for the
   p_2: Ruby onRails Tutorial
   p_3: Sample application.
+  password: Password
+  pls_log_in: Please log in bro
+  profile: profile
+  profile_updated: Profile updated !
+  remember: Remember me please
+  save_changes: Save changes
+  setting: Setting
+  settings: setting
   sign_up: Sign up
+  sign_up_now: Sign up now!
+  sure: Are you sure?
   the_form_contains: The form contains
+  update_profile: Update profile
   user: Users
+  user_deleted: User deleted
   user_not_found: User not found
+  users: User
   welcome_greet: Welcome my Friend!
-  new_user: "New user"
-  invalid_email_password: "sorry bro wrong password/email"
-  users: "User"
-  account: "account"
-  profile: "profile"
-  settings: "setting"
-  log_out: "log out"
-  name: "Name"
-  email: "Email"
-  password: "Password"
-  sign_up_now: "Sign up now!"
-  remember: "remember me on this computer"
