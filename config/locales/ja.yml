@@ -1,8 +1,15 @@
 ja:
+  account: アカウント
+  all_users: All users
   c_en: English
   c_ja: Japanese
   confirmation: Pパスワード確認
   create_my_account: アカウントを作る
+  delete: Delete
+  delete_fail: Delete fail
+  edit_user: Edit user
+  email: Email
+  error: Error !
   greetings: 愛してます
   h_title: サンプルアプリ
   hello: こんにちはゲスト
@@ -12,25 +19,31 @@ ja:
   help_p3: このサンプルアプリのヘルプを見るには
   help_p4: Ruby on Railsチュートリアルブック
   home: ホーム
+  invalid_email_password: 申し訳ありませんが間違ったパスワード/メール
   l_title: Railsチュートリアルサンプルアプリ
   log_in: ログイン
+  log_out: ログアウト
+  n_authorized: N authorized
+  name: Name
+  new_user: 新しいユーザー
   p_1: これはのホームページです
   p_2: Ruby on Railsチュートリアル
   p_3: Sample application.
+  password: Password
+  pls_log_in: Please log in bro
+  profile: プロフィール
+  profile_updated: Profile updated
+  remember: remember me please
+  save_changes: Save changes
+  setting: Setting
+  settings: 設定
   sign_up: サインアップ
+  sign_up_now: Sign up now!
+  sure: Are you sure?
   the_form_contains: The form contains
+  update_profile: Update profile
   user: Users
+  user_deleted: User deleted
   user_not_found: ユーザーが見つかりません
+  users: ユーザー
   welcome_greet: ウェルカム・マイ・フレンド!
-  new_user: "新しいユーザー"
-  invalid_email_password: "申し訳ありませんが間違ったパスワード/メール"
-  users: "ユーザー"
-  account: "アカウント"
-  profile: "プロフィール"
-  settings: "設定"
-  log_out: "ログアウト"
-  name: "Name"
-  email: "Email"
-  password: "Password"
-  sign_up_now: "Sign up now!"
-  remember: "remember me on this computer"
