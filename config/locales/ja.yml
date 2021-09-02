@@ -1,9 +1,12 @@
 ja:
   account: アカウント
+  activate: "Activate !"
+  activated: "Account activated!"
   all_users: All users
   c_en: English
   c_ja: Japanese
   confirmation: Pパスワード確認
+  check: "Please check your email to activate your account."
   create_my_account: アカウントを作る
   delete: Delete
   delete_fail: Delete fail
@@ -20,6 +23,7 @@ ja:
   help_p4: Ruby on Railsチュートリアルブック
   home: ホーム
   invalid_email_password: 申し訳ありませんが間違ったパスワード/メール
+  invalid_activation: "Invalid activation link"
   l_title: Railsチュートリアルサンプルアプリ
   log_in: ログイン
   log_out: ログアウト

@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
 
-    root 'static_pages#home', as: 'home'
-    get 'static_pages/help', as: 'help'
+    root "static_pages#home", as: "home"
+    get "static_pages/help", as: "help"
 
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
@@ -12,5 +12,6 @@ Rails.application.routes.draw do
     delete "/logout", to: "sessions#destroy"
 
     resources :users
+    resources :account_activations, only: :edit
   end
 end
