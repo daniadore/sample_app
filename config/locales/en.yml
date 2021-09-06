@@ -12,7 +12,10 @@ en:
   delete_fail: Delete fail
   edit_user: Edit user
   email: Email
+  email_not_found: "Sorry email address not found"
+  email_sent: "Email sent with password reset instructions"
   error: Error !
+  forgot_password: "Forgot Password"
   greetings: Greetings
   h_title: Sample App
   hello: Hello guest
@@ -34,10 +37,13 @@ en:
   p_2: Ruby onRails Tutorial
   p_3: Sample application.
   password: Password
+  password_reset: "Password has been reset."
+  password_expired: "Password reset has expired."
   pls_log_in: Please log in bro
   profile: profile
   profile_updated: Profile updated !
   remember: Remember me please
+  reset_password: "Reset Password"
   save_changes: Save changes
   setting: Setting
   settings: setting
@@ -51,3 +57,4 @@ en:
   user_not_found: User not found
   users: User
   welcome_greet: Welcome my Friend!
+  Reset_password: "Reset Password"
