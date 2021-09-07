@@ -9,6 +9,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
+    @microposts = @user.microposts.paginate(page: params[:page])
 
     if @user.nil?
       flash[:danger] = t(:user_not_found)
@@ -56,14 +57,6 @@ class UsersController < ApplicationController
   end
 
   private
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t(:pls_log_in)
-      redirect_to login_url
-    end
-  end
 
   def correct_user
     @user = User.find_by(id: params[:id])

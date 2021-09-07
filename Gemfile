@@ -22,7 +22,9 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-
+gem "image_processing", "1.9.3"
+gem "mini_magick", "4.9.5"
+gem "active_storage_validations", "0.8.2"
 gem "will_paginate", git: "https://github.com/mislav/will_paginate.git", branch: "master"
 gem "bootstrap-will_paginate", "1.0.0"
 

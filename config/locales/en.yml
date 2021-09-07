@@ -58,3 +58,6 @@ en:
   users: User
   welcome_greet: Welcome my Friend!
   Reset_password: "Reset Password"
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted"
+  micropost_invalid: "Micropost invalid"
