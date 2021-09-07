@@ -12,7 +12,10 @@ ja:
   delete_fail: Delete fail
   edit_user: Edit user
   email: Email
+  email_not_found: "Sorry email address not found"
+  email_sent: "Email sent with password reset instructions"
   error: Error !
+  forgot_password: "Forgot Password"
   greetings: 愛してます
   h_title: サンプルアプリ
   hello: こんにちはゲスト
@@ -34,10 +37,13 @@ ja:
   p_2: Ruby on Railsチュートリアル
   p_3: Sample application.
   password: Password
+  password_reset: "Password has been reset."
+  password_expired: "Password reset has expired."
   pls_log_in: Please log in bro
   profile: プロフィール
   profile_updated: Profile updated
   remember: remember me please
+  reset_password: "Reset Password"
   save_changes: Save changes
   setting: Setting
   settings: 設定
@@ -51,3 +57,4 @@ ja:
   user_not_found: ユーザーが見つかりません
   users: ユーザー
   welcome_greet: ウェルカム・マイ・フレンド!
+  Reset_password: "Reset Password"
