@@ -58,3 +58,6 @@ ja:
   users: ユーザー
   welcome_greet: ウェルカム・マイ・フレンド!
   Reset_password: "Reset Password"
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted"
+  micropost_invalid: "Micropost invalid"
